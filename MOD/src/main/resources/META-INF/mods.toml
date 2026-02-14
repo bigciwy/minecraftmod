@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+showAsResourcePack=false
+
+[[mods]]
+modId="examplemod"
+version="1.0.0"
+displayName="Example Mod"
+logoFile=""
+credits="Example Mod Creator"
+authors="You"
+description='''
+A Minecraft Forge mod featuring custom NPCs and mobs with entity registry support.
+'''
+
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"

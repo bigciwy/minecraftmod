@@ -1,0 +1,60 @@
+{
+  "credit": "COOOLTIIIII Boss Model",
+  "textures": {
+    "0": "examplemod:entity/coooltiiiii"
+  },
+  "elements": [
+    {
+      "name": "Head",
+      "from": [4, 20, 0],
+      "to": [12, 28, 8],
+      "faces": {
+        "north": {"uv": [0, 0, 8, 8], "texture": "#0"},
+        "east": {"uv": [8, 0, 16, 8], "texture": "#0"},
+        "south": {"uv": [16, 0, 24, 8], "texture": "#0"},
+        "west": {"uv": [24, 0, 32, 8], "texture": "#0"},
+        "up": {"uv": [0, 0, 8, 8], "texture": "#0"},
+        "down": {"uv": [0, 8, 8, 16], "texture": "#0"}
+      }
+    },
+    {
+      "name": "Body",
+      "from": [2, 8, -2],
+      "to": [14, 20, 10],
+      "faces": {
+        "north": {"uv": [0, 16, 12, 28], "texture": "#0"},
+        "east": {"uv": [12, 16, 24, 28], "texture": "#0"},
+        "south": {"uv": [24, 16, 36, 28], "texture": "#0"},
+        "west": {"uv": [36, 16, 48, 28], "texture": "#0"},
+        "up": {"uv": [0, 16, 12, 28], "texture": "#0"},
+        "down": {"uv": [0, 28, 12, 40], "texture": "#0"}
+      }
+    },
+    {
+      "name": "LeftLeg",
+      "from": [3, 0, 1],
+      "to": [7, 8, 5],
+      "faces": {
+        "north": {"uv": [0, 40, 4, 48], "texture": "#0"},
+        "east": {"uv": [4, 40, 8, 48], "texture": "#0"},
+        "south": {"uv": [8, 40, 12, 48], "texture": "#0"},
+        "west": {"uv": [12, 40, 16, 48], "texture": "#0"},
+        "up": {"uv": [0, 40, 4, 44], "texture": "#0"},
+        "down": {"uv": [0, 44, 4, 48], "texture": "#0"}
+      }
+    },
+    {
+      "name": "RightLeg",
+      "from": [9, 0, 1],
+      "to": [13, 8, 5],
+      "faces": {
+        "north": {"uv": [16, 40, 20, 48], "texture": "#0"},
+        "east": {"uv": [20, 40, 24, 48], "texture": "#0"},
+        "south": {"uv": [24, 40, 28, 48], "texture": "#0"},
+        "west": {"uv": [28, 40, 32, 48], "texture": "#0"},
+        "up": {"uv": [16, 40, 20, 44], "texture": "#0"},
+        "down": {"uv": [16, 44, 20, 48], "texture": "#0"}
+      }
+    }
+  ]
+}
